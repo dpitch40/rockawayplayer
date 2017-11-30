@@ -1,0 +1,37 @@
+Challenge: Implement all the functionality before the GUI--create a Python context in which everything can be invoked
+    Can use it for scripting later
+Basic components
+    Resource superclass
+    Tracks--accept as many extensions as possible, using Pyglet
+    Playlists
+        Smart playlists
+Capabilities
+    Performance enhancements
+    See playlists a song is in, as in iTunes
+    Built-in analytics?
+        Playlist/song listening history
+    Integrated USB mass storage device syncing with customizable format
+    Allow/disallow filtering out "the" in sorting for various fields
+UI
+    Playlists
+        Playlist folders, also as in iTunes
+        More advanced/efficient smart playlist conditions--multi-level, as in iTunes
+            More control over when they are updated
+            Advanced: Define a smart playlist by SQL query
+        Play contols like on X5II; can be playlist-specific or general
+        More control over display columns in playlists and their width
+    Interact with and edit albums directly
+        Album art--copy/pasting, adding from URL, auto-search?
+    Simplifying keeping DB and file metadata synced, changing file
+Customizability
+    Full user control over the layout
+        Placeable "widgets"
+            Playlists
+            Album/artist browser
+            File browser
+    Lots of/customizable hotkeys; off-window controls a la Banshee
+        Add buttons/hotkeys for any function
+    Let users customize number of stars?
+    Python scripting capability?
+Development
+    Full unit testing suite
