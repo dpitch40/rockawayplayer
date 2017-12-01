@@ -12,6 +12,7 @@ Capabilities
         Playlist/song listening history
     Integrated USB mass storage device syncing with customizable format
     Allow/disallow filtering out "the" in sorting for various fields
+    System for generating fields from the DB that persist while the program runs, without having to store them; album length or sort keys
 UI
     Playlists
         Playlist folders, also as in iTunes
